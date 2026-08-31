@@ -19,7 +19,7 @@ export default function App() {
   return (
     <HelmetProvider>
       <ConfigProvider>
-        <Router>
+        <Router basename="/thamesheating/">
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
